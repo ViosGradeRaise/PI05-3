@@ -10,7 +10,7 @@ public class BinaryHeapExample {
         heap.add(90);
 
         // Вывести и удалить элементы в куче в порядке возрастания
-        System.out.println("Elements in heap order:");
+        System.out.println("Элементы в порядке возрастания:");
         while (!heap.isEmpty()) {
             System.out.print(heap.poll() + " ");
         }
